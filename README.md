@@ -3,7 +3,7 @@ This is a addon to add support for UNet multiplayer in the Invector Template pac
 
 This should add a new menu item under the "Invector" tab called "Multiplayer". 
 
-To Sync all parameters, except for trigger, for an animator run:
+To Sync all parameters, except for triggers, for an animator run:
  - Invector/Multiplayer/Make Player Multiplayer Compatible
     - This will sync all movements and most of the player's animations.
  
