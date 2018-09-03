@@ -1,4 +1,4 @@
-# InvectorUNetMultiplayerAddon
+# Invector - UNet Multiplayer Addon
 This is a addon to add support for UNet multiplayer in the Invector Template package for unity. Simple just download the package and import it into Unity.
 
 This should add a new menu item under the "Invector" tab called "Multiplayer". 
