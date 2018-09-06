@@ -1,0 +1,56 @@
+﻿The following is a list of files and the lines that will be added in those files to support UNet networking.
+
+v_AIAnimator.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("WeakAttack");
+- GetComponent<NetworkAnimator>().SetTrigger("TriggerRecoil");
+- GetComponent<NetworkAnimator>().SetTrigger("ResetState");
+
+v_AIMotor.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("ResetState");
+
+v_AIWeaponsControl.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("EquipItem");
+
+vMeleeClickToMove.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("WeakAttack");
+- GetComponent<NetworkAnimator>().SetTrigger("TriggerRecoil");
+- GetComponent<NetworkAnimator>().SetTrigger("ResetState");
+
+vMeleeCombatInput.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("WeakAttack");
+- GetComponent<NetworkAnimator>().SetTrigger("StrongAttack");
+- GetComponent<NetworkAnimator>().SetTrigger("ResetState");
+- GetComponent<NetworkAnimator>().SetTrigger("TriggerRecoil");
+- if (isLocalPlayer == false) return;
+
+vThirdPersonAnimator.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("IdleRandomTrigger");
+
+vCharacter.cs:
+- using UnityEngine.Networking;
+- if (triggerRecoilHash.isValid) GetComponent<NetworkAnimator>().SetTrigger(triggerRecoilHash);
+- if (triggerReactionHash.isValid) GetComponent<NetworkAnimator>().SetTrigger(triggerReactionHash);
+- if (triggerResetStateHash.isValid) GetComponent<NetworkAnimator>().SetTrigger(triggerResetStateHash);
+- if (triggerReactionHash.isValid) GetComponent<NetworkAnimator>().SetTrigger(triggerReactionHash);
+
+vItemManager.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("EquipItem");
+- GetComponent<NetworkAnimator>().SetTrigger("ResetState");
+
+vShooterManager.cs:
+- using UnityEngine.Networking;
+- GetComponent<NetworkAnimator>().SetTrigger("Reload");
+- if (animator) GetComponent<NetworkAnimator>().SetTrigger("Shoot");
+
+vBowControl.cs:
+- using UnityEngine.Networking;
+- if (animator) GetComponent<NetworkAnimator>().SetTrigger("Spring");
+- if (animator) GetComponent<NetworkAnimator>().SetTrigger("UnSpring");
+- if (animator) GetComponent<NetworkAnimator>().SetTrigger("Shot");
