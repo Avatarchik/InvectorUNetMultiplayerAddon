@@ -14,6 +14,9 @@ The order is important! Don't just import everything at once or you will get a m
 3. Open "Invector/Multiplayer/Add Multiplayer To Invector Scripts"
    - Should be self explanitory here. Just read what the help box says
 4. When that is done reimport everything
+
+   <img src="https://raw.githubusercontent.com/wesleywh/InvectorUNetMultiplayerAddon/master/secondimport.PNG" width="40%;" height="100%;" />
+
 5. Now look through the "Added Menu Items" and simply run through them.
 
 ## Added Menu Items
