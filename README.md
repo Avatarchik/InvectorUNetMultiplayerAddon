@@ -1,6 +1,12 @@
 # Invector - UNet Multiplayer Addon
 This is a addon to add support for UNet multiplayer in the Invector Template package for unity. Simple just download the package and import it into Unity.
 
+As of v0.6.2 this has only been tested with the "Shooter Template"
+
+## How to Import and Setup
+The order is important! Don't just import everything at once or you will get a million erros and never fix them. Follow these steps and everything should import just fine.
+
+## Added Menu Items
 This should add a new menu item under the "Invector" tab called "Multiplayer". 
 
 To Sync all parameters, except for triggers, for an animator run:
@@ -15,8 +21,11 @@ To Sync all triggers run:
  - Invector/Multiplayer/Add Multiplayer To Invector Scripts
     - Running `Invector/Multiplayer/Add Multiplayer To Invector Scripts` will actually modify invector code. This is the only way to currently accuratly sync all animation triggers across the network. There isn't an automated method to undo these additions. If you want to undo these changes look at the `InvectorScriptChanges.txt` file. This will list all additions that will be added to these scripts.
 
+Convert Scene To Multiplayer:
+ - Invector/Multiplayer/Convert Scene To Multiplayer
+   - This will find the few things in the currently active scene that have needed multiplayer components and add them. It will copy anything that is currently applied to the original component to the multiplayer equivalent.
 
-## Conver To Work With Melee Combat Only Invector Template
+## Conver To Work With Melee Combat Only Invector Template (For 0.5.2 and below)
 If you don't have the shooter template that's fine just follow these steps to convert this package to work with the melee combat template only. 
 
 If you see:
