@@ -6,6 +6,16 @@ As of v0.6.2 this has only been tested with the "Shooter Template"
 ## How to Import and Setup
 The order is important! Don't just import everything at once or you will get a million erros and never fix them. Follow these steps and everything should import just fine.
 
+1. Download the release v0.6.2 or above
+2. Import only the ModifyScripts.cs file
+
+   <img src="https://raw.githubusercontent.com/wesleywh/InvectorUNetMultiplayerAddon/master/firstImport.PNG" width="40%;" height="100%;" />
+   
+3. Open "Invector/Multiplayer/Add Multiplayer To Invector Scripts"
+   - Should be self explanitory here. Just read what the help box says
+4. When that is done reimport everything
+5. Now look through the "Added Menu Items" and simply run through them.
+
 ## Added Menu Items
 This should add a new menu item under the "Invector" tab called "Multiplayer". 
 
