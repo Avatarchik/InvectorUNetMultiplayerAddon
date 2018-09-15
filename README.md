@@ -1,3 +1,8 @@
+# Deprecated
+I will not be pushing anymore updates here since Unity is deprecating UNET. I have moved this over to my new repository to use Photon PUN as the new networking solution.
+
+https://github.com/wesleywh/InvectorPhotonPUNMultiplayerAddon
+
 # Invector - UNet Multiplayer Addon
 This is a addon to add support for UNet multiplayer in the Invector Template package for unity. Simple just download the package and import it into Unity.
 
